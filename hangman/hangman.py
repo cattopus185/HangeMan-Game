@@ -1,6 +1,9 @@
 import random
 from words import words
-
+# CC stands for "COMPUTER CHOICE"----computer's choice from the file words.py
+# CCI stands for "COMPUTER CHOICE INPUT"----computer's word length
+# MM stands for "Max Mistakes"---- Basically, max attempts before the game is over
+# mygw stands for "My Guessing words"---- your gussing word. a placeholder first with the same length as the CC 
 CC=list(random.choice(words))
 CCI=len(CC)
 MM=7
